@@ -1,0 +1,11 @@
+Options +MultiViews
+RewriteEngine on
+
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.fractional-cro\.com [NC]
+RewriteRule (.*) https://fractional-cro.com/$1 [L,R=301]
+
+ErrorDocument 401 https://www.fractional-cro.com/
+ErrorDocument 404 https://www.fractional-cro.com/
+ErrorDocument 500 https://www.fractional-cro.com/
+
