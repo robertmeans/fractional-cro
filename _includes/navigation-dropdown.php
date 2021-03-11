@@ -12,17 +12,14 @@
         <li><a href="#services">Services</a></li>
         
 
-
         <li><a href="#clients">dropdown</a>
           <ul class="nav-dropdown">
-          <li><a href="#clients">something 1</a></li>
-          <li><a href="#clients">something 2</a></li>
-          <li><a href="#clients">something 3</a></li>
+            <li><a href="#clients">something 1</a></li>
+            <li><a href="#clients">something 2</a></li>
+            <li><a href="#clients">something 3</a></li>
 
           </ul>
         </li>
-
-
 
 
         <li><a id="myBtn">Contact</a></li> 

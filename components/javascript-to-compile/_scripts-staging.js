@@ -6,7 +6,7 @@ $("#hero").backstretch([
 ], {duration: 2000,
   fade: 4000});
 
-$(function() { 
+$(document).ready(function() { 
   // If a link has a dropdown, add sub menu toggle.
   $('nav ul li a:not(:only-child)').click(function(e) {
     $(this).siblings('.nav-dropdown').toggle();
