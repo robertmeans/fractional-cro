@@ -8,8 +8,7 @@
   </div>
   <div class="modal-body">
   	<p>Christian Solomine<br>
-  		<a href="tel:(303)%20522-4430"><i class="fas fa-mobile-alt fa-fw"></i> (303) 522-4430</a><br>
-  		<a href="mailto:christian@fractional-cro.com"><i class="far fa-envelope fa-fw"></i> christian@fractional-cro.com</a></p>
+  		<a href="tel:(303)%20522-4430"><i class="fas fa-mobile-alt fa-fw"></i> (303) 522-4430</a></p>
     <form id="contact">
     	<label>Name</label>
     	<input type="text" name="name" placeholder="Your name">

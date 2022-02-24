@@ -14,7 +14,7 @@
 	<div class="footer-wrap">
 		<div class="left">
 			<p>Christian Solomine<br>
-			<a href="mailto:christian@fractional-cro.com" class="contact mail"><i class="far fa-envelope fa-fw"></i> christian@fractional-cro.com</a><br>
+			<!-- <a href="mailto:christian@fractional-cro.com" class="contact mail"><i class="far fa-envelope fa-fw"></i> christian@fractional-cro.com</a><br> -->
 			<a href="tel:(303)%20522-4430" class="contact tel"><i class="fas fa-mobile-alt fa-fw"></i> (303) 522-4430</a></p>
 		</div>
 		<div class="right">
