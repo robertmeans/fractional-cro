@@ -23,6 +23,6 @@ require '_includes/head.php';
 </script>
 <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
 <script src="js/scripts.js?<?php echo time(); ?>"></script>
-<!-- <script src="http://localhost:35729/livereload.js"></script> -->	
+<script src="http://localhost:35729/livereload.js"></script>	
 </body>
 </html>

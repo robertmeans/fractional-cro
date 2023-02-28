@@ -37,26 +37,27 @@
 		font-family: 'Ubuntu', Calabri, sans-serif;
 		font-family: montserrat, sans-serif;
 	}
+  i.fa-caret-down {
+    color: inherit;
+    font-size: 32px;
+    line-height: 16px;
+    padding: 18px 16px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.9);
+    border: 1px solid #6d9bb3;
+    transition: all 0.3s ease;
+  }
 		
 	a.scroll-link {
-		display: block;
 		position: absolute;
-		bottom: 1em;
-		margin-top: 1em;
+		bottom: 1.5em;
 		text-decoration: none;
-		background-color: rgba(64,189,206,0.8);
-		background-color: rgba(255,255,255,0.9);
-		padding: 0.25em;
-		font-size: 2em;
 		color: #3d5764;
 		z-index: 2;
-		transition: all 0.3s ease-out;
-		border-radius: 50%;
-		border: 1px solid #6d9bb3;
-
-		&:hover {
+		& i:hover {
+      color: rgba(255,255,255,0.9);
 			background-color: rgba(255,255,255,0.2);
-			// animation: out .2s 2 linear;
+			animation: out .2s 2 linear;
 		}
 	}
 }
