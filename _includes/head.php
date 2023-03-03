@@ -20,8 +20,7 @@
 	<meta name="description" content="Fractional CRO was created to help B2B SaaS and technology firms with strategic growth guidance.">
 	<meta name="format-detection" content="telephone=no">
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
+  <script src="https://kit.fontawesome.com/d2556c2236.js" crossorigin="anonymous"></script>
 
 	<link href='https://fonts.googleapis.com/css?family=Cinzel|Roboto|Ubuntu' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="aos.css" />

@@ -16,6 +16,9 @@
     	<label>Email</label>
     	<input type="email" name="email" placeholder="Your email address" max-length="60">
 
+      <label>Phone</label>
+      <input type="tel" name="phone" placeholder="Your phone number" max-length="14">
+
     	<label>Message</label>
     	<textarea name="message" maxlength="2000"></textarea>
 

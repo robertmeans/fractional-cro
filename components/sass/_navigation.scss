@@ -1,11 +1,12 @@
 .navigation {
   height: 70px;
-  background: #6d7993;
+  background-color: #2b3699;
+  background-color: rgba(43,54,153,0.8);
   font-family: montserrat, sans-serif;
 
   font-weight: 400;
   font-style: normal;
-  opacity: 0.88;
+  // opacity: 0.88;
   width: 100%;
   position: fixed;
   z-index: 3;
@@ -14,13 +15,18 @@
 .brand {
   font-family: 'Cinzel', Helvetica;
   position: absolute;
-  padding-left: 20px;
+  padding-left: 10px;
   float: left;
   line-height: 70px;
   text-transform: uppercase;
   font-size: 1.4em;
   & > a {
     cursor: pointer;
+  }
+  img {
+    width: 96%;
+    max-width: 250px;
+    margin-top: 5px;
   }
 }
 .brand a,
@@ -57,16 +63,18 @@ nav ul li {
 }
 nav ul li a,
 nav ul li a:visited {
+  background-color: inherit;
   display: block;
   padding: 0 20px;
   line-height: 70px;
-  background: #6d7993;
   color: #ffffff;
   text-decoration: none;
+  transition: all 0.2s ease;
 }
 nav ul li a:hover,
 nav ul li a:visited:hover {
-  background: #4b5569;
+  background-color: #1f276e;
+  background-color: rgba(31,39,110,1);
   color: #ffffff;
 }
 nav ul li a:not(:only-child):after,
@@ -86,6 +94,7 @@ nav ul li ul li a {
   position: absolute;
   display: none;
   z-index: 1;
+
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
 
@@ -95,7 +104,12 @@ nav ul li ul li a {
   position: absolute;
   top: 0;
   right: 0;
-  background: #6d7993;
+  // background-color: #6d7993;
+  // background-color: #3547E6;
+  // background-color: rgba(53,71,230,0.9); 
+  background-color: #2b3699;
+  background-color: rgba(43,54,153,0.9);  
+  background-color: inherit; 
   height: 70px;
   width: 70px;
 }
@@ -111,6 +125,8 @@ nav ul li ul li a {
   }
   nav ul {
     display: none;
+      background-color: #2b3699;
+  background-color: rgba(43,54,153,0.9); 
   }
   nav ul li {
     float: none;

@@ -1,7 +1,7 @@
 <section class="navigation">
   <div class="nav-container">
     <div class="brand">
-      <a onclick="topFunction()">Fractional CRO</a>
+      <a onclick="topFunction()"><img src="_images/fractional-cro-logo.png"></a>
     </div>
     <nav>
       <div class="nav-mobile">

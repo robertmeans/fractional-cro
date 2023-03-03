@@ -12,11 +12,17 @@ footer {
 
 		.left,
 		.right {
-			width: 50%;
+			// width: 50%;
 			margin-top: 30px;
 			margin-bottom: 30px;
 			color: #fff;
 		}
+    .left {
+      width: 40%;
+    }
+    .right {
+      width: 60%;
+    }
 		.left a {
 			color: #fff;
 			text-decoration: none;
@@ -33,29 +39,64 @@ footer {
 			color: #fff;
 			font-size: 0.8em;
 			line-height: 1.5em;
-			a {
-				color: inherit;
-				font-size: inherit;
-				text-decoration: none;
-				padding: 0;
-				background: inherit;
-				border: none;
-				margin: 0;
-				display: inline-block;
-				width: auto;
-				transition: color 0.3s ease;
-				&:hover {
-					text-decoration: underline;
-				}
-			}
+      a {
+        text-decoration: none;
+      }
 		}
 	}
 }
+
+
+
+
+
+a.ewd-tag {
+    color: gray;
+    width: 120px;
+    margin-left: 0.25em;
+    transition: all 0.2s ease;
+    border-radius: 3px;
+    padding: 0.25em;
+    padding: 0.25em 0.5em;
+    border: 1px solid transparent;
+}
+.ewd-tag i {
+    font-size: 0.9em;
+    margin-right: 0.25em;
+    // margin-left: 0.5em;
+    color: #e1e1e1;
+    transition: all 0.2s ease;
+}
+.ewd-tag .ewd-txt {
+    color: #bdcde5;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+a.ewd-tag:hover {
+    background-color: rgba(255,255,255,0.1);
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+a.ewd-tag:hover i {
+    color: #ff5270;
+}
+a.ewd-tag:hover .ewd-txt {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
 
 @media screen and (max-width: 550px) {
 	footer {
 		.footer-wrap {
 			flex-direction: column;
+      p.copyright {
+        padding: 5px;
+      }
 			.left {
 				display: block;
 				width: 96%;

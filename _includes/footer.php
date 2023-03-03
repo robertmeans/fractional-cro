@@ -18,7 +18,9 @@
 			<a href="tel:(303)%20522-4430" class="contact tel"><i class="fas fa-mobile-alt fa-fw"></i> (303) 522-4430</a></p>
 		</div>
 		<div class="right">
-			<p class="copyright"><?= ewd_copyright(2021); ?> Fractional-CRO | <a href="http://www.evergreenwebdesign.com" target="_blank">EWD</a></p>
+			<p class="copyright"><?= ewd_copyright(2021); ?> Fractional-CRO &nbsp;&nbsp;| <a class="ewd-tag" href="https://evergreenwebdesign.com" target="_blank" rel="noopener"><i class="fa-solid fa-desktop"></i> <span class="ewd-txt">EWD</span></a>
+</p>
+
 		</div>
 	</div>
 </footer>

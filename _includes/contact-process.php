@@ -10,6 +10,7 @@
 	$name = trim($_POST['name']);
 	$email = trim($_POST['email']);
 	$message = trim($_POST['message']);
+  $phone = $_POST['phone'];
 
 if (is_post_request()) {
 
@@ -38,7 +39,7 @@ if (is_post_request()) {
         // Content
         $mail->isHTML(true);
         $mail->Subject = 'Email from Fractional-CRO Website';
-        $mail->Body    =  'Name: ' . $name . '<br>Email: ' . $email . '<br><hr><br><br>' . nl2br($message);
+        $mail->Body    =  'Name: ' . $name . '<br>Email: ' . $email . '<br>Phone: ' . $phone . '<hr><br><br>' . nl2br($message);
 
         $mail->send();
 		    // echo 'Message has been sent';
@@ -56,7 +57,7 @@ if (is_post_request()) {
 
 	} else {
 		$signal = 'bad';
-		$msg = 'Please fill in all the fields.';
+		$msg = 'At minimum, please include name, email and a message.';
 	}
 
 }
