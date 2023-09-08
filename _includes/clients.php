@@ -1,6 +1,10 @@
 <section id="clients">
 	<div class="clients-wrap">
 		<h2>Clients</h2>
+    <a href="https://www.divdat.com/" target="_blank"><img src="_images/divdat.png"></a>
+    <a href="https://payliance.com/" target="_blank"><img src="_images/payliance.png"></a>
+    <a href="https://app.athletex.io/" target="_blank"><img src="_images/athletex.png"></a>
+    <a href="https://prometeochain.com/" target="_blank"><img src="_images/prometeochain.png"></a>
 		<a href="https://www.aeris.com/" target="_blank"><img src="_images/aeris.png"></a>
 		<a href="https://www.geotab.com/" target="_blank"><img src="_images/geotab.png"></a>
 		<a href="https://www.bitboss.io/" target="_blank"><img src="_images/bitboss.png"></a>

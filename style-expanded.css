@@ -667,6 +667,10 @@ article {
   width: 100%;
   max-width: 190px;
   margin: 1em 1.5em;
+  transition: all 0.2s ease;
+}
+.clients-wrap img:hover {
+  scale: 0.9;
 }
 .clients-wrap h2 {
   display: block;

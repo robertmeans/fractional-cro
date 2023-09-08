@@ -20,7 +20,11 @@
 		width: 100%;
 		max-width: 190px;
 		margin: 1em 1.5em;
+    transition: all 0.2s ease;
 	}
+  img:hover {
+    scale: 0.9;
+  }
 	h2 {
 		display: block;
 		width: 100%;
