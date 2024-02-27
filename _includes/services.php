@@ -28,7 +28,7 @@
 				<li>Sales Coaching</li>
 				<li>Pitch Deck Evaluation | Audits | Sales Playbook Design</li>
 				<li>MEDDIC Training</li>
-        <li>• Customer Success Program Design and Training</li>
+        <li>Customer Success Program Design and Training</li>
 			</ul>
 		</div>
 	
