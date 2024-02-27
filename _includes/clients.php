@@ -20,5 +20,9 @@
     <a href="http://www.macquarie.com/" target="_blank"><img src="_images/macquarie.png"></a>
     <a href="https://www.sierrawireless.com/" target="_blank"><img src="_images/sierrawireless.png"></a>
     <a href="https://www.arity.com/" target="_blank"><img src="_images/arity.png"></a>
+    <a href="https://www.getwaave.com/" target="_blank"><img src="_images/waave.png"></a>
+    <a href="https://perfectquote.io/" target="_blank"><img src="_images/perfectquote.png"></a>
+    <a href="https://www.kinectify.com/" target="_blank"><img src="_images/kinectify.png"></a>
+    <a href="https://www.getsoundstrategies.com/" target="_blank"><img src="_images/soundstrategies.png"></a>
   </div>
 </section>
