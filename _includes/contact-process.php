@@ -23,17 +23,26 @@ if (is_post_request()) {
 
     try { 
 
-				$mail->Host = 'localhost';
-				$mail->Username   = EMAIL;
-				$mail->Password   = PASSWORD; 
-				$mail->Port = 587;
-				// email routing set to automatically detect
+				// $mail->Host = 'localhost';
+				// $mail->Username   = EMAIL;
+				// $mail->Password   = PASSWORD; 
+				// $mail->Port = 587;
+        /* changed above to below on 02.23.24 */
+        $mail->isSMTP(); 
+        $mail->Host         = "localhost"; 
+        $mail->Port         = 25; 
+        $mail->SMTPAuth     = false; 
+        $mail->SMTPAutoTLS  = false;
+				// email routing set to remote
 
         //Recipients
-        $mail->setFrom(EMAIL, 'Fractional-CRO');
-        $mail->addAddress(EMAIL, 'Fractional-CRO Website');     // Add a recipient
+        $mail->setFrom('email@fractional-cro.com', 'Fractional-CRO');
+        $mail->addAddress('christian@fractional-cro.com', 'Fractional-CRO Website');     // Add a recipient
+        /* testing purposes */
+        // $mail->addAddress('robertmeans01@gmail.com', 'Fractional-CRO Website');
         $mail->addReplyTo($email, $name);
         // $mail->addCC('cc@example.com');
+        /* testing purposes */
         // $mail->addBCC('robertmeans01@gmail.com');
 
         // Content
